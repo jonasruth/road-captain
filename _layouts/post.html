@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<!-- <h3>{{ page.title }}</h3> -->
+<h3 class="jumbotron-heading">{{ page.title }}</h3>
+<p class="post-meta">
+  {{ page.date | date_to_string }}
+  {% assign author = site.authors | where: 'short_name', page.author | first %}
+  {% if author %}
+  - <a href="{{ author.url }}">{{ author.name }}</a>
+  {% endif %}
+</p>
+
+{{ content }}

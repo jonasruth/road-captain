@@ -1,0 +1,26 @@
+---
+---
+@import "main";
+// @import "variables";
+// @import "bootstrap";
+// @import "bootstrap-compass";
+// @import "bootstrap-mincer";
+// @import "bootstrap-sprockets";
+
+.rc-bg-dark {
+    background-color: #76a5bd;
+    color: #FFF;
+}
+
+.card {
+    border:0;
+    background: none;
+
+    .card-body {
+        display: none;
+    }
+}
+
+.post-meta {
+    font-size: .9rem;
+}

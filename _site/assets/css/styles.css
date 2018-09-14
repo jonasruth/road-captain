@@ -1,0 +1,15 @@
+.current {
+  color: green; }
+
+.rc-bg-dark {
+  background-color: #76a5bd;
+  color: #FFF; }
+
+.card {
+  border: 0;
+  background: none; }
+  .card .card-body {
+    display: none; }
+
+.post-meta {
+  font-size: .9rem; }

@@ -1,0 +1,38 @@
+# sass:
+  # style: :compressed
+
+
+title: Road Captain Brasil
+
+instagram_username: roadcaptainbrasil
+facebook_username: roadcaptainoficial
+
+collections:
+  authors:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: "author"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+
+# description: >- # this means to ignore newlines until "baseurl:"
+#   Sou o Road Captain e vim ao mundo para trazer #pas e também para tornar o motociclismo mais bem humorado. 
+
+#   Sim, sou o mesmo Road Captain que publica coisas engraçadas sobre motos no Instagram e Facebook e se você ainda não me conhece, não custa nada me seguir nas redes sociais né? 
+
+#   Redes sociais do Road Captain:
+#   * Instagram: [@roadcaptainbrasil](https://instagram.com/roadcaptainbrasil)
+#   * Facebook: [https://facebook.com/roadcaptainoficial](https://facebook.com/roadcaptainoficial)
