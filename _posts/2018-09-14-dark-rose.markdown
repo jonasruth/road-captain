@@ -3,6 +3,7 @@
 # date:   2018-09-13 13:47:50 -0300
 # categories: recomendo
 author: roadcaptain
+featured: darkrose.jpg
 ---
 Sabe quando você chega em casa do rolê de moto e tá com preguiça de colocar as coisas em seus lugares? 
 

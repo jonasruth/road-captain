@@ -3,11 +3,18 @@ title: Blog
 ---
 <h1>Latest Posts</h1>
 
-<ul>
+<ul class="blog-list mx-0 px-0">
   {% for post in site.posts %}
-    <li>
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      <p>{{ post.excerpt }}</p>
-    </li>
+  <li class="mx-0 px-0">
+    <div class="row">
+      <div class="col-md-auto">
+        <img src="/assets/images/{{ post.featured }}" style="width:100px;">
+      </div>
+      <div class="col-md-8">
+        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <p>{{ post.excerpt }}</p>
+      </div>
+    </div>
+  </li>
   {% endfor %}
 </ul>

@@ -11,4 +11,9 @@ layout: default
   {% endif %}
 </p>
 
+{% if page.featured %}
+<img src="/assets/images/{{ page.featured }}" style="width:100%">
+{% else %}
+<img data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;">
+{% endif %}
 {{ content }}
